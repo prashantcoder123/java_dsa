@@ -14,7 +14,7 @@ class Recursion_firstOccurence{
         }
 
        int isFound = lastOccurence(arr, key, i+1);
-       if(isFound == -1 && arr[i] = = key){
+       if(isFound == -1 && arr[i] == key){
         return i;
        }
 
